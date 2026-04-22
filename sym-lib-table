@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "sEMG_v1-altium-import")(type "KiCad")(uri "${KIPRJMOD}/sEMG_v1-altium-import.kicad_sym")(options "")(descr ""))
+)
