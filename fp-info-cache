@@ -1,4 +1,4 @@
-27776074839691941
+27783356078005715
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106414,6 +106414,13 @@ ADAFRUIT_3.5MM
 0
 0
 course_kicad_ecp_footprint
+BMP388-module
+
+
+0
+8
+8
+course_kicad_ecp_footprint
 Battery-18560-1s
 
 
@@ -106475,7 +106482,7 @@ Res-Through-1/4W
 
 0
 2
-1
+2
 course_kicad_ecp_footprint
 Cap-E-radial
 
@@ -106603,6 +106610,20 @@ TNPW0603100KBEEA
 2
 2
 course_kicad_ecp_footprint
+TPS63020-module
+
+
+0
+11
+7
+course_kicad_ecp_footprint
+TPS63020-module 
+
+
+0
+11
+7
+course_kicad_ecp_footprint
 TQFP-32_L5.0-W5.0-P0.50-LS7.0-TL
 
 
@@ -106625,6 +106646,13 @@ Untitled_1
 0
 course_kicad_ecp_footprint
 Untitled_2
+
+
+0
+0
+0
+course_kicad_ecp_footprint
+Untitled_3
 
 
 0
