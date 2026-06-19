@@ -3824,10 +3824,9 @@
 		(uuid "3972b778-0776-4c98-8521-9c1db8dad182")
 		(at 118.3 119.6 180)
 		(property "Reference" "J2"
-			(at 0 -1.2 180)
+			(at -2.97 -0.11 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "476e0566-fe38-46b5-b1c7-1c721b574a2e")
 			(effects
 				(font
@@ -3978,15 +3977,15 @@
 		(at 110.862961 116.605433 -90)
 		(tags "AP2112K-3.3TRG1 ")
 		(property "Reference" "U1"
-			(at 0 0 270)
+			(at 2.244567 -1.157039 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5026542d-572c-4007-8c1a-4a353cd6d6fb")
+			(uuid "d52a42e6-c560-4d2c-9764-b17dc472482c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -3995,7 +3994,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a67e4ee-5c40-47db-94f4-7547002cd29a")
+			(uuid "c92da376-a0be-4c4a-916d-4a97375feed7")
 			(effects
 				(font
 					(size 1 1)
@@ -4004,10 +4003,10 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://AP2112K-3.3TRG1.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a97b42b-7883-4eff-be85-f54c09781351")
+			(uuid "7b753b99-25aa-480e-a073-6b8e240fee71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,10 +4014,10 @@
 			)
 		)
 		(property "Description" "Output Type:Fixed Voltage - Supply:6V Output Voltage:3.3V Output Voltage:3.3V Output Current:600mA Power Supply Rejection Ratio (PSRR):65dB@(1kHz) Voltage Dropout:250mV@(600mA) standby current:55uA Noise:50uVrms Features:Enable；Over Temperature Protection"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b0dcd90-abf7-4f51-80d4-3c9ebcd91500")
+			(uuid "93603fab-4845-4f0d-bdbb-3b61870fa304")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,14 +7412,13 @@
 		(descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cuidevices.com/product/resource/sj2-359x-smt.pdf)")
 		(tags "3.5mm audio cui horizontal jack stereo")
 		(property "Reference" "J1"
-			(at 0.2 12.375 0)
+			(at -2.99 10.14 0)
 			(layer "F.SilkS")
-			(uuid "fc247364-f339-4200-a8de-ff8699080352")
+			(uuid "9d429ab6-0434-468f-8e1b-e5729fe07986")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.2)
-					(bold yes)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7428,7 +7426,7 @@
 			(at 0 13 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "475fc1ea-d0c0-47d1-ab5a-adcc0f8fc5c7")
+			(uuid "feba78b5-2ce6-4a2a-baa5-57fd50ae5eae")
 			(effects
 				(font
 					(size 1 1)
@@ -7441,7 +7439,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae891052-feae-42aa-9932-a1d3d9b81aad")
+			(uuid "2fbad00d-a076-4e6d-bd39-9d28cc72f9c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,12 +7447,12 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bed2a520-6e1a-45a8-b817-ef9c66967614")
+			(uuid "e270358d-2dd8-417a-a817-2700b22262b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,12 +7464,6 @@
 		(path "/1c28ebda-e776-4385-80d6-f7b5a8f7b919")
 		(sheetname "/")
 		(sheetfile "sEMG_v1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "R" "RN" "T" "TN")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7810,15 +7802,15 @@
 			(uuid "d333f0e5-915b-432a-b0aa-fbdf0de87827")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ2-3593D-SMT_Horizontal.step"
+		(model "${KICAD_OWNER_3D}/SJ2_3593D_SMT_TR/SJ2-3593D-SMT-TR.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 8.5 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -10228,10 +10220,10 @@
 		(uuid "e78be24a-1910-40cc-947d-dfc18be72e35")
 		(at 103 126.18 -90)
 		(property "Reference" "J3"
-			(at -6.54 -17.99 0)
+			(at 13.49 1.15 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dc9c1fc6-664a-43e3-b962-5b25fe4ced16")
+			(uuid "446c2ce5-19df-4b23-ba92-78c2cae438d1")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10244,7 +10236,7 @@
 			(at 0.35 8.81 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ee32295e-af3e-4df7-b984-fd878df4c6d1")
+			(uuid "f58523ea-ed28-4284-94d7-cd1b3bf9b90b")
 			(effects
 				(font
 					(size 1 1)
@@ -10257,7 +10249,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bbb3a4d-5b92-4850-8efb-d9b257ad3e26")
+			(uuid "1f3eaccf-3e21-49fc-b9ab-cf6b6ff7fb3c")
 			(effects
 				(font
 					(size 1 1)
@@ -10270,7 +10262,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20c8efa3-0b9c-4492-b995-cee5822cb13c")
+			(uuid "5d621d36-49dd-4c0b-a18b-2b3b13bac533")
 			(effects
 				(font
 					(size 1 1)
