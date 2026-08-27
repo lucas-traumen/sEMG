@@ -5338,7 +5338,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 203.2 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,7 +5979,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 86.36 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6952,7 +6952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 86.36 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8158,7 +8158,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 86.36 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9146,7 +9146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10M"
 			(at 86.36 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
